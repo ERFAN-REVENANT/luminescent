@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <div className="bg-customDark  flex items-center h-full w-full justify-between">
       {/* Logo */}
-      <p className="font-modak text-white text-[2rem] px-[50px]">JOANN</p>
+      <p className="font-modak text-white text-[2rem] px-[30px]">JOANN</p>
 
       {/* Menu and button container */}
-      <div className="h-full flex-grow bg-white rounded-l-full px-7 py-1 flex items-center justify-between font-asap">
+      <div className="h-full flex-grow bg-white rounded-l-full px-7 py-1 flex items-center justify-between font-asap font-bold">
         {/* Menu items */}
         <div className="flex">
           {menuItems.map((item) => (
