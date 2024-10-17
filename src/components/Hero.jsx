@@ -37,8 +37,8 @@ const Hero = () => {
             <img src={dots2} width={15} alt="" />
           </div>
         </div>
-        <div className="flex items-center">
-          <img src={pointer} width={100} alt="" />
+        <div className="flex items-center gap-5">
+          <img src={pointer} width={70} alt="" />
           <div className="flex gap-1">
             <div className="rounded-md bg-[#ffb7d0] w-12 h-12"></div>
             <div className="rounded-md bg-[#f997b9] w-12 h-12"></div>
