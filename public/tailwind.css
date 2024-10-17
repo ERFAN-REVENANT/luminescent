@@ -618,6 +618,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-\[100px\]{
+  margin-top: 100px;
+}
+
 .flex{
   display: flex;
 }
@@ -636,6 +640,10 @@ video {
 
 .h-\[21rem\]{
   height: 21rem;
+}
+
+.h-\[300px\]{
+  height: 300px;
 }
 
 .h-full{
@@ -666,8 +674,16 @@ video {
   width: 60%;
 }
 
+.w-\[1px\]{
+  width: 1px;
+}
+
 .w-\[200\%\]{
   width: 200%;
+}
+
+.w-\[50px\]{
+  width: 50px;
 }
 
 .w-full{
@@ -676,6 +692,16 @@ video {
 
 .flex-grow{
   flex-grow: 1;
+}
+
+.translate-x-1{
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-rotate-90{
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes RightToLeft{
@@ -689,7 +715,7 @@ video {
 }
 
 .animate-RightToLeft{
-  animation: RightToLeft 30s linear infinite;
+  animation: RightToLeft 100s linear infinite;
 }
 
 .flex-col{
@@ -851,6 +877,10 @@ video {
   padding-bottom: 50px;
 }
 
+.pt-\[100px\]{
+  padding-top: 100px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -885,6 +915,10 @@ video {
 
 .text-\[2rem\]{
   font-size: 2rem;
+}
+
+.text-\[3\.5rem\]{
+  font-size: 3.5rem;
 }
 
 .text-\[7rem\]{

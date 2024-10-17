@@ -18,7 +18,7 @@ module.exports = {
         },
       },
       animation: {
-        RightToLeft: "RightToLeft 30s linear infinite",
+        RightToLeft: "RightToLeft 100s linear infinite",
       },
     },
   },

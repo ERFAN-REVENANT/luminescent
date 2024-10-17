@@ -21,6 +21,7 @@ export { default as pointer } from "../assets/pointer.svg";
 export { default as star } from "../assets/star.svg";
 export { default as star2 } from "../assets/star2.svg";
 export { default as circle } from "../assets/circle.svg";
+export { default as arrow } from "../assets/arrow.svg";
 
 export const menuItems = [
   { id: 1, title: "ABOUT ME", link: "/about" },
@@ -49,4 +50,11 @@ export const headerData = [
     title: "INSTAGRAM -",
     details: "@JOOOO.ANN",
   },
+];
+export const scrollContent = [
+  { text: "#LUMINESCENTTOWN" },
+  { text: "#LUMINESCENTTOWN" },
+  { text: "#LUMINESCENTTOWN" },
+  { text: "#LUMINESCENTTOWN" },
+  { text: "#LUMINESCENTTOWN" },
 ];
