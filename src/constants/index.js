@@ -20,6 +20,7 @@ export { default as pixelarrow } from "../assets/pixelarrow.svg";
 export { default as pointer } from "../assets/pointer.svg";
 export { default as star } from "../assets/star.svg";
 export { default as star2 } from "../assets/star2.svg";
+export { default as circle } from "../assets/circle.svg";
 
 export const menuItems = [
   { id: 1, title: "ABOUT ME", link: "/about" },

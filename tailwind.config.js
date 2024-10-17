@@ -9,7 +9,16 @@ module.exports = {
         asap: ["Asap", "sans-serif"],
       },
       backgroundColor: {
-        customDark: '#252525',
+        customDark: "#252525",
+      },
+      keyframes: {
+        RightToLeft: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        RightToLeft: "RightToLeft 30s linear infinite",
       },
     },
   },

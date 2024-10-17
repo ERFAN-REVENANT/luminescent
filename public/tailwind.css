@@ -678,6 +678,20 @@ video {
   flex-grow: 1;
 }
 
+@keyframes RightToLeft{
+  0%{
+    transform: translateX(0%);
+  }
+
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+.animate-RightToLeft{
+  animation: RightToLeft 30s linear infinite;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -708,6 +722,14 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.whitespace-nowrap{
+  white-space: nowrap;
 }
 
 .rounded-3xl{
@@ -819,6 +841,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-\[50px\]{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -841,6 +873,10 @@ video {
 
 .font-modak{
   font-family: Modak, cursive;
+}
+
+.text-\[1\.5rem\]{
+  font-size: 1.5rem;
 }
 
 .text-\[14\.7rem\]{
@@ -893,3 +929,4 @@ video {
 .hover\:cursor-pointer:hover{
   cursor: pointer;
 }
+
