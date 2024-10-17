@@ -1,1 +1,33 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect x="11.3" y="43.1" width="2.5" height="15.22"/><rect x="60.9" y="43.1" width="2.5" height="15.22"/><rect x="16" y="43.1" width="2.5" height="15.22"/><rect x="32" y="43.1" width="5.1" height="15.22"/><rect x="84.5" y="43.1" width="5.1" height="15.22"/><rect x="39.1" y="43.1" width="1.7" height="15.22"/><rect x="20.8" y="43.1" width="3.8" height="15.22"/><rect x="26.8" y="43.1" width="1.5" height="15.22"/><rect x="29.4" y="43.1" width="0.9" height="15.22"/><rect x="81.3" y="43.1" width="0.9" height="15.22"/><rect x="37.6" y="43.1" width="0.9" height="15.22"/><rect x="42.4" y="43.1" width="1.6" height="15.22"/><rect x="58.2" y="43.1" width="1.6" height="15.22"/><rect x="64.3" y="43.1" width="11" height="15.22"/><rect x="50.6" y="43.1" width="3.1" height="15.22"/><rect x="56.5" y="43.1" width="1" height="15.22"/><rect x="45.7" y="43.1" width="2.4" height="15.22"/><rect x="49.1" y="43.1" width="0.9" height="15.22"/><rect x="76.9" y="43.1" width="0.9" height="15.22"/><rect x="83" y="43.1" width="0.9" height="15.22"/><rect x="19.1" y="43.1" width="0.6" height="15.22"/><rect x="78.4" y="43.1" width="0.6" height="15.22"/><rect x="54.8" y="43.1" width="0.6" height="15.22"/><rect x="9.6" y="43.1" width="0.6" height="15.22"/></svg>
+<svg width="81" height="15" viewBox="0 0 81 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_83_16)">
+<path d="M4.8 0.100006H2.3V15.32H4.8V0.100006Z" fill="white"/>
+<path d="M54.4 0.100006H51.9V15.32H54.4V0.100006Z" fill="white"/>
+<path d="M9.5 0.100006H7V15.32H9.5V0.100006Z" fill="white"/>
+<path d="M28.1 0.100006H23V15.32H28.1V0.100006Z" fill="white"/>
+<path d="M80.6 0.100006H75.5V15.32H80.6V0.100006Z" fill="white"/>
+<path d="M31.8 0.100006H30.1V15.32H31.8V0.100006Z" fill="white"/>
+<path d="M15.6 0.100006H11.8V15.32H15.6V0.100006Z" fill="white"/>
+<path d="M19.3 0.100006H17.8V15.32H19.3V0.100006Z" fill="white"/>
+<path d="M21.3 0.100006H20.4V15.32H21.3V0.100006Z" fill="white"/>
+<path d="M73.2 0.100006H72.3V15.32H73.2V0.100006Z" fill="white"/>
+<path d="M29.5 0.100006H28.6V15.32H29.5V0.100006Z" fill="white"/>
+<path d="M35 0.100006H33.4V15.32H35V0.100006Z" fill="white"/>
+<path d="M50.8 0.100006H49.2V15.32H50.8V0.100006Z" fill="white"/>
+<path d="M66.3 0.100006H55.3V15.32H66.3V0.100006Z" fill="white"/>
+<path d="M44.7 0.100006H41.6V15.32H44.7V0.100006Z" fill="white"/>
+<path d="M48.5 0.100006H47.5V15.32H48.5V0.100006Z" fill="white"/>
+<path d="M39.1 0.100006H36.7V15.32H39.1V0.100006Z" fill="white"/>
+<path d="M41 0.100006H40.1V15.32H41V0.100006Z" fill="white"/>
+<path d="M68.8 0.100006H67.9V15.32H68.8V0.100006Z" fill="white"/>
+<path d="M74.9 0.100006H74V15.32H74.9V0.100006Z" fill="white"/>
+<path d="M10.7 0.100006H10.1V15.32H10.7V0.100006Z" fill="white"/>
+<path d="M70 0.100006H69.4V15.32H70V0.100006Z" fill="white"/>
+<path d="M46.4 0.100006H45.8V15.32H46.4V0.100006Z" fill="white"/>
+<path d="M1.2 0.100006H0.599998V15.32H1.2V0.100006Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_83_16">
+<rect width="81" height="15" fill="white"/>
+</clipPath>
+</defs>
+</svg>
