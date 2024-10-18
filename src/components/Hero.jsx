@@ -13,7 +13,8 @@ import {
 const Hero = () => {
   return (
     <section className="bg-customDark pointer-events-none">
-      <div className=" justify-between p-[30px] hidden md:flex">
+      {/* Header Data */}
+      <div className="justify-between p-[30px] hidden md:flex">
         {headerData.map((item) => (
           <div key={item.id} className="text-white">
             <p className="font-bold">{item.title}</p>
@@ -21,13 +22,19 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      <h1 className="font-modak text-center text-white text-[3rem] md:text-[14.7rem] leading-[12rem] ">
+
+      {/* Main Title */}
+      <h1 className="font-modak text-center text-white text-[3rem] md:text-[14.7rem] leading-[12rem]">
         LUMINESCENT
       </h1>
+
+      {/* Subtitle */}
       <p className="font-comforter font-bold text-center text-[#ec749e] text-[3rem] -mt-[110px] md:text-[7rem] md:-mt-[130px]">
         Town
       </p>
-      <div className=" px-[30px] items-center justify-between pb-5 hidden md:flex">
+
+      {/* Oval, Hurt, Colors, etc. */}
+      <div className="px-[30px] items-center justify-between pb-5 hidden md:flex">
         <div className="flex items-center gap-5">
           <div>
             <img src={oval} width={100} alt="" />
@@ -38,9 +45,10 @@ const Hero = () => {
           </div>
           <div className="flex flex-col text-white">
             <p className="font-bold text-3xl">傷つく</p>
-            <p className="tracking-[14px] font-asap ">HURT</p>
+            <p className="tracking-[14px] font-asap">HURT</p>
           </div>
         </div>
+
         <div className="flex items-center gap-5">
           <img src={pointer} width={70} alt="" />
           <div className="flex gap-1">
@@ -52,8 +60,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between px-[30px] gap-8 mt-10">
-        <div className="flex flex-col w-1/2 gap-1 ">
+
+      {/* Image and About Section */}
+      <div className="flex flex-col md:flex-row justify-between px-[30px] gap-8 mt-10">
+        {/* Column for the Images */}
+        <div className="hidden md:flex flex-col w-full md:w-1/2 gap-1">
           {/* Background image div 1 */}
           <div
             className="h-[16rem] rounded-3xl"
@@ -66,7 +77,7 @@ const Hero = () => {
 
           {/* Background image div 2 */}
           <div
-            className="relative h-[21rem] rounded-3xl "
+            className="relative h-[21rem] rounded-3xl"
             style={{
               backgroundImage: `url(${img8})`,
               backgroundPosition: "0% 50%",
@@ -76,12 +87,14 @@ const Hero = () => {
             <img
               src={over}
               alt="Overlay"
-              className="absolute  -top-[335px] w-[200%] h-[200%] object-contain"
+              className="absolute -top-[335px] w-[200%] h-[200%] object-contain"
             />
           </div>
         </div>
-        <div className="w-1/2 font-asap text-white flex flex-col justify-between">
-          <div div className="">
+
+        {/* Column for the About Text */}
+        <div className="w-full md:w-1/2 font-asap text-white flex flex-col justify-between">
+          <div>
             <h1 className="font-extrabold">ABOUT</h1>
             <p className="font-semibold text-justify">
               A CAPTIVATING FUSION OF LIGHT AND IMAGINATION. A MESMERIZING
@@ -97,28 +110,30 @@ const Hero = () => {
               </button>
               <div className="w-2/5 flex items-center justify-end gap-3">
                 <p className="text-right font-medium text-sm">
-                  CONTROL YOUR <br></br> SCROLL
+                  CONTROL YOUR <br /> SCROLL
                 </p>
                 <img src={pixelarrow} alt="Arrow" />
               </div>
             </div>
           </div>
-          <div className="flex h-[21rem] gap-1">
+
+          {/* Bottom Image Row */}
+          <div className="flex flex-col md:flex-row h-[21rem] gap-1 mt-5">
             <div
+              className="rounded-3xl w-full md:w-2/3 h-full bg-red-200"
               style={{
                 backgroundImage: `url(${img4})`,
                 backgroundPosition: "0% 60%",
                 backgroundSize: "150%",
               }}
-              className="rounded-3xl w-2/3 h-full bg-red-200" // Added a background color for visibility
             ></div>
             <div
+              className="rounded-3xl w-full md:w-1/3 h-full bg-blue-200"
               style={{
                 backgroundImage: `url(${img4})`,
                 backgroundPosition: "95% 59.4%",
                 backgroundSize: "285%",
               }}
-              className="rounded-3xl w-1/3 h-full bg-blue-200" // Added a background color for visibility
             ></div>
           </div>
         </div>
