@@ -27,7 +27,7 @@ const Hero = () => {
       <p className="font-comforter font-bold text-center text-[#ec749e] text-[7rem] -mt-[130px]">
         Town
       </p>
-      <div className="flex px-[30px] items-center justify-between">
+      <div className="flex px-[30px] items-center justify-between pb-5">
         <div className="flex items-center gap-5">
           <div>
             <img src={oval} width={100} alt="" />
@@ -35,6 +35,10 @@ const Hero = () => {
           <div className="gap-3 flex">
             <img src={dots2} width={15} alt="" />
             <img src={dots2} width={15} alt="" />
+          </div>
+          <div className="flex flex-col text-white">
+            <p className="font-bold text-3xl">傷つく</p>
+            <p className="tracking-[14px] font-asap ">HURT</p>
           </div>
         </div>
         <div className="flex items-center gap-5">
