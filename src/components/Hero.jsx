@@ -13,7 +13,7 @@ import {
 const Hero = () => {
   return (
     <section className="bg-customDark pointer-events-none">
-      <div className="flex justify-between p-[30px]">
+      <div className=" justify-between p-[30px] hidden md:flex">
         {headerData.map((item) => (
           <div key={item.id} className="text-white">
             <p className="font-bold">{item.title}</p>
@@ -21,13 +21,13 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      <h1 className="font-modak text-center text-white text-[14.7rem] leading-[12rem]">
+      <h1 className="font-modak text-center text-white text-[3rem] md:text-[14.7rem] leading-[12rem] ">
         LUMINESCENT
       </h1>
-      <p className="font-comforter font-bold text-center text-[#ec749e] text-[7rem] -mt-[130px]">
+      <p className="font-comforter font-bold text-center text-[#ec749e] text-[3rem] -mt-[110px] md:text-[7rem] md:-mt-[130px]">
         Town
       </p>
-      <div className="flex px-[30px] items-center justify-between pb-5">
+      <div className=" px-[30px] items-center justify-between pb-5 hidden md:flex">
         <div className="flex items-center gap-5">
           <div>
             <img src={oval} width={100} alt="" />

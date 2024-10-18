@@ -650,6 +650,22 @@ video {
   margin-top: 45px;
 }
 
+.-mt-\[80px\]{
+  margin-top: -80px;
+}
+
+.-mt-\[100px\]{
+  margin-top: -100px;
+}
+
+.-mt-\[120px\]{
+  margin-top: -120px;
+}
+
+.-mt-\[110px\]{
+  margin-top: -110px;
+}
+
 .block{
   display: block;
 }
@@ -664,6 +680,10 @@ video {
 
 .grid{
   display: grid;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-12{
@@ -989,6 +1009,11 @@ video {
   padding-bottom: 50px;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -1064,6 +1089,26 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[10rem\]{
+  font-size: 10rem;
+}
+
+.text-\[50rem\]{
+  font-size: 50rem;
+}
+
+.text-\[5rem\]{
+  font-size: 5rem;
+}
+
+.text-\[4rem\]{
+  font-size: 4rem;
+}
+
+.text-\[3rem\]{
+  font-size: 3rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1103,7 +1148,56 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\]{
+  color: ;
+}
+
 .hover\:cursor-pointer:hover{
   cursor: pointer;
+}
+
+@media (min-width: 640px){
+  .sm\:flex{
+    display: flex;
+  }
+
+  .sm\:justify-between{
+    justify-content: space-between;
+  }
+
+  .sm\:text-\[2rem\]{
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:-mt-\[130px\]{
+    margin-top: -130px;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:text-\[14\.7rem\]{
+    font-size: 14.7rem;
+  }
+
+  .md\:text-\[7rem\]{
+    font-size: 7rem;
+  }
+
+  .md\:leading-\[12rem\]{
+    line-height: 12rem;
+  }
 }
 
