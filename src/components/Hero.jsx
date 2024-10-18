@@ -118,7 +118,7 @@ const Hero = () => {
           </div>
 
           {/* Bottom Image Row */}
-          <div className="flex flex-col md:flex-row h-[21rem] gap-1 mt-5">
+          <div className="hidden md:flex flex-col md:flex-row h-[21rem] gap-1 mt-5">
             <div
               className="rounded-3xl w-full md:w-2/3 h-full bg-red-200"
               style={{
